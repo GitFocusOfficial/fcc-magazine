@@ -100,34 +100,68 @@ Create another `p` element below your .`first-paragraph` element, and give it th
 
 ## Step 13
 
+Add a third `p` element at the end of your `.text` element, and give it the following text:
 
+>Example Code
+>
+>It wasn't as dramatic as Doc's revelation in Back to the Future. It just occurred to me while I was going for a run. The revelation: the entire curriculum should be a series of projects. Instead of individual coding challenges, we'll just have projects, each with their own seamless series of tests. Each test gives you just enough information to figure out how to get it to pass. (And you can view hints if that isn't enough.)
 
 ## Step 14
 
+After the three `p` elements within your `.text` element, create a `blockquote` element. Within that, add an `hr` element, a `p` element with the `class` set to `quote`, and a second `hr` element.
 
+Give the `.quote` element the text `The entire curriculum should be a series of projects`.
 
 ## Step 15
 
+Below your `blockquote` element, add another `p` element with the following text:
 
+>Example Code
+>
+>No more walls of explanatory text. No more walls of tests. Just one test at a time, as you build up a working project. Over the course of passing thousands of tests, you build up projects and your own understanding of coding fundamentals. There is no transition between lessons and projects, because the lessons themselves are baked into projects. And there's plenty of repetition to help you retain everything because - hey - building projects in real life has plenty of repetition.
 
 ## Step 16
 
+Create a fifth `p` element at the end of your `.text` element, and give it the following text:
 
+>Example Code
+>
+>The main design challenge is taking what is currently paragraphs of explanation and instructions and packing them into a single test description text. Each project will involve dozens of tests like this. People will be coding the entire time, rather than switching back and forth from "reading mode" to "coding mode".
 
 ## Step 17
 
+Create one final `p` element at the end of your `.text` element and give it the following text:
 
+>Example Code
+>
+>Instead of a series of coding challenges, people will be in their code editor passing one test after another, quickly building up a project. People will get into a real flow state, similar to what they experience when they build the required projects at the end of each certification. They'll get that sense of forward progress right from the beginning. And freeCodeCamp will be a much smoother experience.
 
 ## Step 18
 
-
+Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
 
 ## Step 19
 
-
+Within your `article` element, create an `h3` element with the `class` set to `list-title` and the text of `A Brief History`. Below that, create a `p` element with the text `Of the Curriculum`. Then create a `ul` element with the class `lists`.
 
 ## Step 20
 
+Within your `ul` element, create six `li` elements. Add an `h4` element with a class set to `list-subtitle` and a `p` element to each of your `li` elements.
 
+Then give the `h4` and `p` elements the following text content, in order, with each `h4` using what's on the left side of the colon, and each p using what's on the right:
+
+- `V1 - 2014`: `We launched freeCodeCamp with a simple list of 15 resources, including Harvard's CS50 and Stanford's Database Class.`
+
+- `V2 - 2015`: `We added interactive algorithm challenges.`
+
+- `V3 - 2015`: `We added our own HTML+CSS challenges (before we'd been relying on General Assembly's Dash course for these).`
+
+- `V4 - 2016`: `We expanded the curriculum to 3 certifications, including Front End, Back End, and Data Visualization. They each had 10 required projects, but only the Front End section had its own challenges. For the other certs, we were still using external resources like Node School.`
+
+- `V5 - 2017`: `We added the back end and data visualization challenges.`
+
+- `V6 - 2018`: `We launched 6 new certifications to replace our old ones. This was the biggest curriculum improvement to date.`
 
 ## Step 21
+
+Within your `aside` element, create two `img` elements, a `blockquote` element, and a third `img` element. Give the `blockquote` element a `class` set to `image-quote`.
