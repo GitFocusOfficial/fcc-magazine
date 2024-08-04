@@ -6,51 +6,97 @@ In this course, you'll build a magazine article. You'll learn how to use CSS Gri
 
 ## Step 1
 
+Begin with your standard HTML boilerplate. Add a `DOCTYPE` declaration, an html element specifying this page is in English, a `head` element, and a `body` element.
 
+Add a `<meta>` tag with the appropriate `charset` and a `<meta>` tag for mobile responsiveness within the `head` element.
 
 ## Step 2
 
+Add a `title` element with the text `Magazine`, a link element for the `https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap` font stylesheet, a `link` for the `https://use.fontawesome.com/releases/v5.8.2/css/all.css` FontAwesome stylesheet, and a `link` for your `./styles.css` stylesheet.
 
+Your font stylesheet will load three separate fonts: `Anton`, `Baskervville`, and `Raleway`.
 
 ## Step 3
 
-
+Within your `body`, create a `main` element. Then in that element, create a `section` with a `class` set to `heading`.
 
 ## Step 4
 
+Within your `.heading` element, create a `header` element with the `class` set to `hero`.
 
+In that element, create an `img` element with the src set to `https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png`, the alt set to `freecodecamp logo`, and the `class` set to `hero-img`.
+
+The `loading` attribute on an `img` element can be set to `lazy` to tell the browser not to fetch the image resource until it is needed (as in, when the user scrolls the image into view). As an additional benefit, lazy loaded elements will not load until the non-lazy elements are loaded - this means users with slow internet connections can view the content of your page without having to wait for the images to load.
+
+Give your new `img` element a `loading` attribute set to `lazy`.
 
 ## Step 5
 
-
+After your `img` element, add an `h1` element with the `class` set to `hero-title` and the text set to `OUR NEW CURRICULUM`, followed by a `p` element with the `class` set to `hero-subtitle` and the text set to `Our efforts to restructure our curriculum with a more project-based focus`.
 
 ## Step 6
 
+Your image currently takes up a lot of space. To better see what you are working on, add a `width` attribute to the `img` element, with a value of `400`.
 
+You will remove this later on when you have worked on the CSS.
 
 ## Step 7
 
+After your `header` element, create a `div` with the `class` set to `author`.
 
+Within that `div`, create a `p` element with the `class` set to `author-name` and give it the text `By freeCodeCamp`. Wrap the `freeCodeCamp` portion in an `a` element with the `href` set to `https://freecodecamp.org`, and the `target` set to `_blank`.
+
+Below that, add a second `p` element with the class `publish-date` and the text `March 7, 2019`.
 
 ## Step 8
 
-
+The `Referer` HTTP header contains information about the address or URL of a page that a user might be visiting from. This information can be used in analytics to track how many users from your page visit freecodecamp.org, for example. Setting the `rel` attribute to `noreferrer` omits this information from the HTTP request. Give your `a` element a `rel` attribute set to `noreferrer`.
 
 ## Step 9
 
+Below your `.author` element, create a new `div` element with the class `social-icons`.
 
+Add five `a` elements within that new `div`, and give them the following `href` attributes.
+
+- The first `a` element should have an `href` set to `https://www.facebook.com/freecodecamp`.
+
+- The second `a` element should have an `href` set to `https://twitter.com/freecodecamp`.
+
+- The third `a` element should have an `href` set to `https://instagram.com/freecodecamp`.
+
+- The fourth `a` element should have an `href` set to `https://www.linkedin.com/school/free-code-camp`.
+
+- The fifth `a` element should have an `href` set to `https://www.youtube.com/freecodecamp`.
 
 ## Step 10
 
+Within each of your new `a` elements, add an `i` element and give them the following classes:
 
+- Your first i element should have the class `fab fa-facebook-f`
+
+- Your second `i` element should have the class `fab fa-twitter`
+
+- Your third `i` element should have the class `fab fa-instagram`
+
+- Your fourth `i` element should have the class `fab fa-linkedin-in`
+
+- Your fifth `i` element should have the class `fab fa-youtube`
 
 ## Step 11
 
+Below your `.heading` element, create a new `section` element with the `class` set to `text`. Within that, create a `p` element with the `class` set to `first-paragraph` and the following text:
 
+>Example Code
+>
+>Soon the freeCodeCamp curriculum will be 100% project-driven learning. Instead of a series of coding challenges, you'll learn through building projects - step by step. Before we get into the details, let me emphasize: we are not changing the certifications. All 6 certifications will still have the same 5 required projects. We are only changing the optional coding challenges.
 
 ## Step 12
 
+Create another `p` element below your .`first-paragraph` element, and give it the following text:
 
+>Example Code
+>
+>After years - years - of pondering these two problems and how to solve them, I slipped, hit my head on the sink, and when I came to I had a revelation! A vision! A picture in my head! A picture of this! This is what makes time travel possible: the flux capacitor!
 
 ## Step 13
 
